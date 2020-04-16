@@ -56,10 +56,12 @@ body {
 
 #sidebar-wrapper {
   .sidebar-heading {
-    border-bottom: 1px solid $purple;
+    border-bottom: 2px solid $purple;
+    text-align: center;
+    height: 56px;
 
     img {
-      width: 100px;
+      width: 150px;
     }
   }
 
@@ -99,11 +101,42 @@ body {
   }
 }
 
+#page-content-wrapper {
+  background-color: #f4f6f9;
+}
+
+.page-content {
+  min-height: 100vh;
+}
+
 .navbar {
   background-color: $purple;
 
   a {
     color: $white;
+  }
+}
+
+footer {
+  background-color: #fff;
+  padding: 15px 0;
+
+  p {
+    margin: 0;
+    color: #888;
+
+    span {
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+
+    .orange {
+      color: $orange;
+    }
+
+    .purple {
+      color: $purple;
+    }
   }
 }
 

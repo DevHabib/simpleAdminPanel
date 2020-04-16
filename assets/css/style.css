@@ -53,11 +53,13 @@ form .form-row input:focus, form .form-row textarea:focus {
 }
 
 #sidebar-wrapper .sidebar-heading {
-  border-bottom: 1px solid #652783;
+  border-bottom: 2px solid #652783;
+  text-align: center;
+  height: 56px;
 }
 
 #sidebar-wrapper .sidebar-heading img {
-  width: 100px;
+  width: 150px;
 }
 
 #sidebar-wrapper .user {
@@ -94,12 +96,43 @@ form .form-row input:focus, form .form-row textarea:focus {
   margin-left: 20px;
 }
 
+#page-content-wrapper {
+  background-color: #f4f6f9;
+}
+
+.page-content {
+  min-height: 100vh;
+}
+
 .navbar {
   background-color: #652783;
 }
 
 .navbar a {
   color: #f1f0f0;
+}
+
+footer {
+  background-color: #fff;
+  padding: 15px 0;
+}
+
+footer p {
+  margin: 0;
+  color: #888;
+}
+
+footer p span {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+footer p .orange {
+  color: #f08c2e;
+}
+
+footer p .purple {
+  color: #652783;
 }
 
 /* add post start */
